@@ -1,0 +1,41 @@
+<!-- usesubmenu = 1 -->
+<!DOCTYPE html>
+<!--
+ * @category Templates
+ * @package  HTML_MoziloTemplates
+ * @author   DEVMOUNT <mail@devmount.de>
+ * @license  GPL v3+
+ * @version  GIT: v0.x.jjjj-mm-dd
+ * @link     https://github.com/devmount/TemplateDraft
+-->
+<html>
+    <head>
+        <title>{WEBSITE_TITLE}</title>
+        <meta http-equiv="Content-Type" content="text/html; charset={CHARSET}" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta name="keywords" content="{WEBSITE_KEYWORDS}" />
+        <meta name="description" content="{WEBSITE_DESCRIPTION}" />
+        <meta name="robots" content="index,follow" />
+        <link rel="SHORTCUT ICON" href="{LAYOUT_DIR}/grafiken/favicon.ico" />
+        <style type="text/css">
+            @import "{LAYOUT_DIR}/css/style.css";
+            @import "{LAYOUT_DIR}/css/syntax.css";
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <div class="logo">
+                    <img src="{LAYOUT_DIR}/grafiken/logo.png" alt="Logo" />
+                </div>
+                <div class="search">{SEARCH}</div>
+            </div>
+            <div class="menu">{MAINMENU}</div>
+            <div class="content">{CONTENT}</div>
+            <div class="footer">
+                Powered by {CMSINFO} | Theme by <a href="http://devmount.de">DEVMOUNT</a>
+            </div>
+        </div>
+    </body>
+</html>
