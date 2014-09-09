@@ -171,15 +171,14 @@ hr.horizontalrule {
 
 /* wrong link */
 .deadlink {
-    color      : #ff4444;
+    color: #f44;
     font-weight: bold;
 }
 
 /* highlighted search query */
 .highlight {
-    padding         : 0px 1px;
-    font-size       : inherit;
-    background-color: #dd0000;
-    color           : #ffffff;
-    font-size       : inherit;
+    font-size: inherit;
+    background-color: #d00;
+    color: #fff;
+    font-size: inherit;
 }
