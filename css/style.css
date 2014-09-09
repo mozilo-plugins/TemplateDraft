@@ -18,7 +18,10 @@ html, body  {
 
 body .wrapper {
     height: auto;
+    width: 960px;
     min-height: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
 body {
@@ -31,7 +34,8 @@ body {
 }
 
 :hover {
-    transition: color 0.2s;
+    transition: color 0.15s;
+    transition: background 0.15s;
 }
 
 /* paragraphs */
@@ -70,6 +74,7 @@ a:link, a:visited, a:active {
 }
 
 .menu {
+    background: #eee;
 }
 
 .content {
@@ -81,11 +86,15 @@ a:link, a:visited, a:active {
 /* menu */
 ul.mainmenu,
 ul.cat-menusubs {
-    margin: 0 0 0.5em 0;
+    margin: 0;
     list-style-type: none;
     padding-left: 0;
     font-size: 1em;
     border-bottom: 1px solid #eee;
+}
+li.mainmenu {
+    display: inline-block;
+    vertical-align: top;
 }
 
 a.menu,
@@ -112,11 +121,13 @@ a.menuactive:hover,
 a.cat-menusubs-link:hover {
     text-decoration: none;
     color: #999;
+    background-color: #fafafa;
 }
 
 ul.detailmenu,
 ul.page-menusubs,
 ul.subcat-menusubs {
+    display: none;
     margin-bottom: 0px;
     padding-bottom: 5px;
     padding-left: 35px;
@@ -174,21 +185,17 @@ fieldset#searchfieldset {
 }
 
 input.searchtextfield {
-    border: 1px solid #ffffff;
+    border: 1px solid #aaa;
     width: 200px;
     height: 24px;
-    background-color: #ffffff;
     margin-bottom: 10px;
     padding-left: 5px;
-    color: #000000;
-    -moz-box-shadow: inset 0 0 5px #B0B0B0;
-    -webkit-box-shadow: inset 0 0 5px #B0B0B0;
-    box-shadow: inset 0 0 5px #B0B0B0;
+    color: #222;
 }
 
 input.searchbutton {
     border: none;
-    margin: 5px 0px -5px -20px;
+    margin: 5px 0px -5px -26px;
 }
 
 /* sitemap */
