@@ -1,0 +1,17 @@
+/*
+ * @category Templates
+ * @package  HTML_MoziloTemplates
+ * @author   DEVMOUNT <mail@devmount.de>
+ * @license  GPL v3+
+ * @link     https://github.com/devmount/TemplateDraft
+ */
+
+@media (max-width: 960px) {
+    .wrapper {
+        width: 100%;
+        padding: 0;
+    }
+    .content {
+        padding: 0 10px;
+    }
+}
