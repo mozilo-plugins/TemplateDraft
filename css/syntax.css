@@ -6,6 +6,10 @@
  * @link     https://github.com/devmount/TemplateDraft
  */
 
+/* ---------------- *
+ * moziloCMS syntax *
+ * ---------------- */
+
 /* [link|] */
 a.link {
 }
@@ -182,3 +186,7 @@ hr.horizontalrule {
     color: #fff;
     font-size: inherit;
 }
+
+/* ------------------ *
+ * userdefined syntax *
+ * ------------------ */
